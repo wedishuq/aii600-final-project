@@ -1,10 +1,8 @@
 # Decisions
 
-This file is the history of the project. Append an entry when a choice changes the work: the quantity, the data, the split, the model, the loss, or the action. Leave old entries in place. A later entry can reverse an earlier one. If a result depends on a random draw, record the seed under Why. The split entry records the cutoff date, or the seed and the fraction. The pull request that merges the code names this entry.
+## 2026-11-11: Use Antivirus Detection Data
 
-## YYYY-MM-DD: short title
-
-- Decision. What you chose.
-- Why. The evidence.
-- Alternative. What you rejected.
-- Revisit. What would change the choice.
+- **Decision.** Use antivirus detection events and historical endpoint activity to predict the probability that an alert is malicious using logistic regression.
+- **Why.** Antivirus telemetry provides detection classifications and behavioral context for evaluating malicious activity. The model will use log loss and a cost-based escalation threshold.
+- **Alternative.** Use broader endpoint security events or the CERT insider-threat dataset.
+- **Revisit.** If reliable malicious/benign labels are unavailable or the antivirus data is insufficient for training and evaluation.

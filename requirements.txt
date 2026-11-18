@@ -1,7 +1,4 @@
-# Packages analysis.ipynb imports, with versions.
-# List those imports only. Do not paste the output of pip freeze.
-# These pins belong to the interpreter in .python-version.
-# Python projects: replace x.y.z with the version number of the kernel
-# that runs the notebook, for example 3.12.4. Not "Python 3.12.4".
-# An R project deletes this file and .python-version, and commits renv.lock instead.
-# renv.lock records the R version.
+numpy==2.5.4
+pandas==3.1.1
+matplotlib==3.11.2
+scikit-learn==1.9.1

@@ -10,7 +10,9 @@ venv/
 
 data/*
 !data/README.md
-!data/README_cert.md
+
+# CERT line stays local: notebook, code, decisions, figures, and its data README
+*cert*
 
 *.pt
 *.pth

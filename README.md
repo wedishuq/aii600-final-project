@@ -6,7 +6,7 @@ Follow the [final project lab](https://vsokolov.org/labs/final-project-lab.html)
 
 ## Who
 Project Member/s
-* Abel Rezene
+* Abel Rezene (`wedishuq`)
 * Given the sensitivity of the proposed data, I will be the only project member.
 <!-- Alone, or a group of at most three. One person forks. That person adds the other members and `VadimSokolov` as collaborators. On a repository owned by a personal account the role is Write. On the fork, write the names and GitHub usernames under this heading. One person speaks at the presentation. Every member can explain the whole repository.-->
 
@@ -57,6 +57,8 @@ Leave the data files out of git. A file you are allowed to republish goes on the
 ## Tools
 
 R or Python. Use the language you can explain. AI assistants are allowed. On your fork, add one line to this README: what you used, and for what. You are responsible for everything on `main`, including the parts you did not write.
+
+Cursor was used to draft `analysis.ipynb`, `decisions.md`, the figures, and the checklist.
 
 ## Files
 
